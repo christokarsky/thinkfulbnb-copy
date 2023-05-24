@@ -60,7 +60,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 60px;
   color: #fff;
 }
 
@@ -173,8 +173,10 @@ footer p {
     width: 50%;
   }
   .about-p{
+    display: flex;
     font-size: 8px;
-    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
   }
 
   #idea-pics {
@@ -212,12 +214,21 @@ footer p {
 
  }
 
- #host div {
+ .host-image {
   width: 50%;
  }
 
  #shrink {
-  height: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+ }
+
+ #widen {
+  width: 50%;
+  padding-right: 15px;
  }
 
  #host-text{
@@ -226,7 +237,11 @@ footer p {
 
  #host-heading{
   font-size: 12px;
-  padding-top: 6%;
+  padding-top: 6%ssh-keygen -t ed25519 -C "your_email@example.com";
+ }
+
+ #widen {
+  width: 100%;
  }
   
 
